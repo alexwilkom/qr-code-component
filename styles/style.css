@@ -19,21 +19,53 @@
     --space-300: 1.5rem;
     --space-200: 1rem;
     --letter-space-para: 0.2px;
+
+    --border-radius: 1.25rem;
 }
 
 /* Utility classes for text */
 .text-heading {
-    font-family: var(--ff-outfit);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-heading);
     line-height: 1.2;
     letter-spacing: 0;
+    margin-bottom: var(--space-200);
 }
 
 .text-para {
-    font-family: var(--ff-outfit);
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-para);
     line-height: 1.4;
     letter-spacing: var(--letter-space-para);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--ff-outfit);
+    background-color: var(--clr-slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 20rem;
+    background-color: var(--clr-white);
+    text-align: center;
+    padding: var(--space-200);
+    padding-bottom: var(--space-500);
+    border-radius: var(--border-radius);
+}
+
+.card img {
+    border-radius: var(--border-radius);
+}
+
+.card .text {
+    padding-inline: var(--space-200);
+    margin-top: var(--space-300);
 }
