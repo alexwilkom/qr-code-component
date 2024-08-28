@@ -30,6 +30,7 @@
     line-height: 1.2;
     letter-spacing: 0;
     margin-bottom: var(--space-200);
+    color: var(--clr-slate-900);
 }
 
 .text-para {
@@ -37,6 +38,7 @@
     font-size: var(--font-size-para);
     line-height: 1.4;
     letter-spacing: var(--letter-space-para);
+    color: var(--clr-slate-500);
 }
 
 html,
